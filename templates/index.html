@@ -14,6 +14,14 @@
   box-sizing: border-box;
 }
 body {
+      background: #310404 url(https://i.waifu.pics/~Ixa5M9.png) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      font-family: 'Barlow', sans-serif;
+    }
+body {
   font-family: 'Alata', sans-serif;
   background-color: #212121;
   color: #eee;
@@ -42,10 +50,10 @@ body {
   margin-left: 0.1rem;
   width: 3px;
   animation: blink 1s infinite;
-}
+}/*
 .container p span.TypeCursor.typing {
   animation: none;
-}
+}*/
 @keyframes blink {
   0%  { background-color: #ccc; }
   49% { background-color: #ccc; }
@@ -60,10 +68,11 @@ body {
 }
 </style>
 <div class="container">
-    <p><span class="typed-text"></span><span class="TypeCursor">&nbsp;</span><br><a href="/api">Click here for Documentation</a></p>
+    <p><span class="typed-text"></span><span >&nbsp;</span><br><a href="/api">Click here for Documentation</a></p>
   </div>
 
-<script>
+
+<!--script>
 const TypingText = document.querySelector(".typed-text");
 const AutoTyping = document.querySelector(".TypeCursor");
 
@@ -89,7 +98,7 @@ function type() {
 document.addEventListener("DOMContentLoaded", function() { 
   if(textArray.length) setTimeout(type, newTextDelay + 250);
 });
-</script>
+</script-->
 
 </body>
 </html>
