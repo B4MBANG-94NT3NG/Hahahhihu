@@ -513,17 +513,17 @@ def nekonimek():
 def pantsunimex():
 	try:
 		pantsu = get('https://lewds.ga/v1/nsfw/pantsu').json()
-		pantsu = nimex['url']
+		pa = tsu['url']
 		return {
 			'status': 200,
-			'result': nimek
+			'result': pantsu
 		}
 	except:
 		pantsu = get('https://lewds.ga/v1/nsfw/pantsu').json()
-		pantsu = nimex['url']
+		pa = tsu['url']
 		return {
 			'status': 200,
-			'result': nimek
+			'result': pantsu
 		}
 
 
