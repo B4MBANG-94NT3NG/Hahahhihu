@@ -516,14 +516,14 @@ def pantsunimex():
 		pa = tsu['url']
 		return {
 			'status': 200,
-			'result': pantsu
+			'result': pa
 		}
 	except:
 		pantsu = get('https://lewds.ga/v1/nsfw/pantsu').json()
 		pa = tsu['url']
 		return {
 			'status': 200,
-			'result': pantsu
+			'result': pa
 		}
 
 
