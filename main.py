@@ -652,9 +652,9 @@ def quotesnimerandom():
 
 @app.route('/api/igstalk', methods=['GET','POST'])
 def igstalk():
-	if request.args.get('uname'):
+	if request.args.get('name'):
 		try:
-			tak = request.args.get('uname')
+			tak = request.args.get('name')
 			url = f'https://ferdizstark-afk.xyz/api/stalk?username={tak}'
 			kata = get(url).json()
 			return {
