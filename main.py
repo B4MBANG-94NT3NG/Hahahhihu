@@ -657,15 +657,7 @@ def igstalk():
 			tak = request.args.get('name')
 			url = f'https://ferdizstark-afk.xyz/api/stalk?username={tak}'
 			kata = get(url).json()
-			return {
-				'image': kata['Profile_pic'],
-				'username': kata['Username'],
-				'Followers': kata['Followers'],
-				'Following': kata['Following'],
-				'bio': kata['Bio'],
-				'post': kata['Post'],
-				'status': 200,	
-			}
+			return kata
 		except:
 			return {
 				'status': False,
