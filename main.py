@@ -507,6 +507,24 @@ def nekonimek():
 			'status': 200,
 			'result': nimek
 		}
+		
+		
+@app.route('/api/pantsu', methods=['GET','POST'])
+def pantsu():
+	try:
+		neko = get('https://lewds.ga/v1/nsfw/pantsu').json()
+		tsu = pan['url']
+		return {
+			'status': 200,
+			'result': nimek
+		}
+	except:
+		neko = get('https://lewds.ga/v1/nsfw/pantsu').json()
+		tsu = pan['url']
+		return {
+			'status': 200,
+			'result': nimek
+		}
 
 
 @app.route('/api/ig', methods=['GET','POST'])
