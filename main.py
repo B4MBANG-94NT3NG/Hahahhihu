@@ -510,17 +510,17 @@ def nekonimek():
 		
 		
 @app.route('/api/pantsu', methods=['GET','POST'])
-def pantsu():
+def nekonimek():
 	try:
 		neko = get('https://lewds.ga/v1/nsfw/pantsu').json()
-		tsu = pan['url']
+		nimek = neko['url']
 		return {
 			'status': 200,
 			'result': nimek
 		}
 	except:
 		neko = get('https://lewds.ga/v1/nsfw/pantsu').json()
-		tsu = pan['url']
+		nimek = neko['url']
 		return {
 			'status': 200,
 			'result': nimek
