@@ -650,6 +650,33 @@ def quotesnimerandom():
 		
 	}
 
+@app.route('/api/igstalk', methods=['GET','POST'])
+def igstalk():
+	if request.args.get('uname'):
+		try:
+			tak = request.args.get('uname')
+			url = f'https://ferdizstark-afk.xyz/api/stalk?username={tak}'
+			kata = get(url).json()
+			return {
+				'image': kata['Profile_pic'],
+				'username': kata['Username'],
+				'Followers': kata['Followers'],
+				'Following': kata['Following'],
+				'bio': kata['Bio'],
+				'post': kata['Post'],
+				'status': 200,	
+			}
+		except:
+			return {
+				'status': False,
+				'error': '[❗] eror'
+			}
+	else:
+		return {
+			'status': False,
+			'msg': '[!] Masukkan parameter uname'
+		}
+
 '''
 # SOSMED API #
 @app.route('/dok/epbe', methods=['GET','POST'])
