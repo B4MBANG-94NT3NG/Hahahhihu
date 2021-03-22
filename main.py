@@ -741,23 +741,6 @@ def kissnimex():
 		}
 
 
-@app.route('/api/boobs', methods=['GET','POST'])
-def boobsnimex():
-	try:
-		boobs = get('https://lewds.ga/v1/nsfw/boobs').json()
-		nimex = boobs['result']
-		return {
-			'status': 200,
-			'result': nimex
-		}
-	except:
-		boobs = get('https://lewds.ga/v1/nsfw/boobs').json()
-		nimex = boobs['result']
-		return {
-			'status': 200,
-			'result': nimex
-		}
-
 @app.route('/api/eightball', methods=['GET','POST'])
 def eightballnimex():
 	try:
