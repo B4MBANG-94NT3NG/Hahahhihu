@@ -525,6 +525,24 @@ def pantsunimex():
 			'status': 200,
 			'result': nimex
 		}
+		
+		
+@app.route('/api/boobs', methods=['GET','POST'])
+def pantsunimex():
+	try:
+		pantsu = get('https://lewds.ga/v1/nsfw/boobs').json()
+		nimex = pantsu['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+	except:
+		pantsu = get('https://lewds.ga/v1/nsfw/boobs').json()
+		nimex = pantsu['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
 
 
 @app.route('/api/ig', methods=['GET','POST'])
