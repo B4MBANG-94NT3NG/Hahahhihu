@@ -563,24 +563,6 @@ def threednimex():
 		}
 
 
-@app.route('/api/threed', methods=['GET','POST'])
-def threednimex():
-	try:
-		threed = get('https://lewds.ga/v1/nsfw/threed').json()
-		nimex = threed['result']
-		return {
-			'status': 200,
-			'result': nimex
-		}
-	except:
-		threed = get('https://lewds.ga/v1/nsfw/threed').json()
-		nimex = threed['result']
-		return {
-			'status': 200,
-			'result': nimex
-		}
-
-
 @app.route('/api/athighs', methods=['GET','POST'])
 def athighsnimex():
 	try:
