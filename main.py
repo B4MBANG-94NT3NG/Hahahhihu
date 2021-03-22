@@ -545,6 +545,291 @@ def boobsnimex():
 		}
 
 
+@app.route('/api/threed', methods=['GET','POST'])
+def threednimex():
+	try:
+		threed = get('https://lewds.ga/v1/nsfw/threed').json()
+		nimex = threed['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+	except:
+		threed = get('https://lewds.ga/v1/nsfw/threed').json()
+		nimex = threed['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+
+
+@app.route('/api/threed', methods=['GET','POST'])
+def threednimex():
+	try:
+		threed = get('https://lewds.ga/v1/nsfw/threed').json()
+		nimex = threed['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+	except:
+		threed = get('https://lewds.ga/v1/nsfw/threed').json()
+		nimex = threed['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+
+
+@app.route('/api/athighs', methods=['GET','POST'])
+def athighsnimex():
+	try:
+		athighs = get('https://lewds.ga/v1/nsfw/athighs').json()
+		nimex = athighs['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+	except:
+		athighs = get('https://lewds.ga/v1/nsfw/athighs').json()
+		nimex = athighs['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+
+
+@app.route('/api/feet', methods=['GET','POST'])
+def feetnimex():
+	try:
+		feet = get('https://lewds.ga/v1/nsfw/feet').json()
+		nimex = feet['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+	except:
+		feet = get('https://lewds.ga/v1/nsfw/feet').json()
+		nimex = feet['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+
+
+@app.route('/api/hboobs', methods=['GET','POST'])
+def hboobsnimex():
+	try:
+		hboobs = get('https://lewds.ga/v1/nsfw/hboobs').json()
+		nimex = hboobs['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+	except:
+		hboobs = get('https://lewds.ga/v1/nsfw/hboobs').json()
+		nimex = hboobs['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+		
+@app.route('/api/hentai', methods=['GET','POST'])
+def hentainimex():
+	try:
+		hentai = get('https://lewds.ga/v1/nsfw/hentai').json()
+		nimex = hentai['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+	except:
+		hentai = get('https://lewds.ga/v1/nsfw/hentai').json()
+		nimex = hentai['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+
+
+@app.route('/api/kink', methods=['GET','POST'])
+def kinknimex():
+	try:
+		kink = get('https://lewds.ga/v1/nsfw/kink').json()
+		nimex = kink['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+	except:
+		kink = get('https://lewds.ga/v1/nsfw/kink').json()
+		nimex = kink['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+
+
+@app.route('/api/thighs', methods=['GET','POST'])
+def thighsnimex():
+	try:
+		thighs = get('https://lewds.ga/v1/nsfw/thighs').json()
+		nimex = thighs['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+	except:
+		thighs = get('https://lewds.ga/v1/nsfw/thighs').json()
+		nimex = thighs['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+
+
+@app.route('/api/yuri', methods=['GET','POST'])
+def yurinimex():
+	try:
+		yuri = get('https://lewds.ga/v1/nsfw/yuri').json()
+		nimex = yuri['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+	except:
+		yuri = get('https://lewds.ga/v1/nsfw/yuri').json()
+		nimex = yuri['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+
+
+@app.route('/api/milk', methods=['GET','POST'])
+def milknimex():
+	try:
+		milk = get('https://lewds.ga/v1/nsfw/milk').json()
+		nimex = milk['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+	except:
+		milk = get('https://lewds.ga/v1/nsfw/milk').json()
+		nimex = milk['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+
+
+@app.route('/api/slime', methods=['GET','POST'])
+def slimenimex():
+	try:
+		slime = get('https://lewds.ga/v1/nsfw/slime').json()
+		nimex = slime['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+	except:
+		slime = get('https://lewds.ga/v1/nsfw/slime').json()
+		nimex = slime['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+
+@app.route('/api/kiss', methods=['GET','POST'])
+def kissnimex():
+	try:
+		kiss = get('https://lewds.ga/v1/nsfw/kiss').json()
+		nimex = kiss['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+	except:
+		kiss = get('https://lewds.ga/v1/nsfw/kiss').json()
+		nimex = kiss['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+
+
+@app.route('/api/boobs', methods=['GET','POST'])
+def boobsnimex():
+	try:
+		boobs = get('https://lewds.ga/v1/nsfw/boobs').json()
+		nimex = boobs['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+	except:
+		boobs = get('https://lewds.ga/v1/nsfw/boobs').json()
+		nimex = boobs['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+
+@app.route('/api/eightball', methods=['GET','POST'])
+def eightballnimex():
+	try:
+		eightball = get('https://lewds.ga/v1/nsfw/8ball').json()
+		nimex = eightball['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+	except:
+		eightball = get('https://lewds.ga/v1/nsfw/8ball').json()
+		nimex = eightball['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+
+
+@app.route('/api/reverse', methods=['GET','POST'])
+def reversenimex():
+	try:
+		reverse = get('https://lewds.ga/v1/nsfw/reverse').json()
+		nimex = reverse['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+	except:
+		reverse = get('https://lewds.ga/v1/nsfw/reverse').json()
+		nimex = reverse['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+		
+
+@app.route('/api/shuffle', methods=['GET','POST'])
+def shufflenimex():
+	try:
+		shuffle = get('https://lewds.ga/v1/nsfw/shuffle').json()
+		nimex = shuffle['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+	except:
+		shuffle = get('https://lewds.ga/v1/nsfw/shuffle').json()
+		nimex = shuffle['result']
+		return {
+			'status': 200,
+			'result': nimex
+		}
+
+
 @app.route('/api/ig', methods=['GET','POST'])
 def igeh():
 	if request.args.get('url'):
