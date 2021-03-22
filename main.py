@@ -528,17 +528,17 @@ def pantsunimex():
 		
 		
 @app.route('/api/boobs', methods=['GET','POST'])
-def pantsunimex():
+def boobsnimex():
 	try:
 		pantsu = get('https://lewds.ga/v1/nsfw/boobs').json()
-		nimex = pantsu['result']
+		nimex = boobs['result']
 		return {
 			'status': 200,
 			'result': nimex
 		}
 	except:
 		pantsu = get('https://lewds.ga/v1/nsfw/boobs').json()
-		nimex = pantsu['result']
+		nimex = boobs['result']
 		return {
 			'status': 200,
 			'result': nimex
